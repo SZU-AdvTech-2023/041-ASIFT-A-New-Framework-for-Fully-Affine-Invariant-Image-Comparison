@@ -1,0 +1,9 @@
+@article{REPO041,
+    author = "Morel, Jean-Michel and Yu, Guoshen",
+    journal = "SIAM journal on imaging sciences",
+    number = "2",
+    pages = "438--469",
+    title = "{ASIFT: A New Framework for Fully Affine Invariant Image Comparison}",
+    volume = "2",
+    year = "2009"
+}
