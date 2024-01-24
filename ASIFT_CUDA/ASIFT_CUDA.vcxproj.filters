@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="ASIFT_CUDA.cu">
+      <Filter>CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="fproj_gpu.cu">
+      <Filter>CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="frot_gpu.cu">
+      <Filter>CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CudaSift\cudaImage.cu">
+      <Filter>CudaSift\CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CudaSift\cudaSiftD.cu">
+      <Filter>CudaSift\CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CudaSift\cudaSiftH.cu">
+      <Filter>CudaSift\CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="gb1d.cu">
+      <Filter>CudaSourceFiles</Filter>
+    </CudaCompile>
+    <CudaCompile Include="compute_asift_keypoints.cu">
+      <Filter>CudaSourceFiles</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASIFT_CUDA.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="compute_asift_keypoints.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="demo_lib_sift.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="flimage.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fproj.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fproj_gpu.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="frot.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="frot_gpu.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="numerics1.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="splines.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaSift\cudaImage.h">
+      <Filter>CudaSift\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaSift\cudaSift.h">
+      <Filter>CudaSift\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaSift\cudaSiftD.cuh">
+      <Filter>CudaSift\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaSift\cudaSiftH.h">
+      <Filter>CudaSift\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaSift\cudautils.cuh">
+      <Filter>CudaSift\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gb1d.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="splines.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_lib_sift.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="domain.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="flimage.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="fproj.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="frot.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="numerics1.cpp">
+      <Filter>C++SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaSift\geomFuncs.cpp">
+      <Filter>CudaSift\C++SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CudaSourceFiles">
+      <UniqueIdentifier>{fff2aa66-02f8-4879-af67-8d1d085e9a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++SourceFiles">
+      <UniqueIdentifier>{4763e377-664e-4504-92d5-79e48e9e28c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CudaSift">
+      <UniqueIdentifier>{d0f7cb29-9fc9-408f-8c87-87bb25707581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CudaSift\Headers">
+      <UniqueIdentifier>{812e39b7-92df-4351-8007-0f8656050725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{69169c41-5a68-4cdb-b629-67e3006d8ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CudaSift\CudaSourceFiles">
+      <UniqueIdentifier>{977d3151-fde2-4f36-b22c-037111938536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CudaSift\C++SourceFiles">
+      <UniqueIdentifier>{98168322-9449-4275-aa33-4c410d6a50db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
